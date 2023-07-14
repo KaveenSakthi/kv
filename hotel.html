@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Rooms section styles */
+.rooms {
+    padding: 40px;
+    text-align: center;
+}
+
+.rooms h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.room-card {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.room-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Hotel Paradise</h1>
+            <p>Your perfect getaway destination</p>
+            <a href="#" class="btn">Book Now</a>
+        </section>
+        <section class="rooms">
+            <h2>Our Rooms</h2>
+            <div class="room-card">
+                <img src="room1.jpg" alt="Room 1">
+                <h3>Deluxe Suite</h3>
+                <p>Spacious room with a view</p>
+                <a href="#" class="btn">Details</a>
+            </div>
+            <div class="room-card">
+                <img src="room2.jpg" alt="Room 2">
+                <h3>Executive Room</h3>
+                <p>Luxury and comfort combined</p>
+                <a href="#" class="btn">Details</a>
+            </div>
+            <!-- Add more room cards here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hotel Paradise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
